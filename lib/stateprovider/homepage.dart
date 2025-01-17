@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:state_provider_riverpod_with_copywith/slide_provider.dart';
+import 'package:state_provider_riverpod_with_copywith/stateprovider/slide_provider.dart';
 
 class Homepage extends ConsumerWidget {
   const Homepage({super.key});

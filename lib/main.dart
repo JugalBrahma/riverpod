@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:state_provider_riverpod_with_copywith/home_statenotifier.dart';
+import 'package:state_provider_riverpod_with_copywith/statenotifier/home_statenotifier.dart';
+import 'package:state_provider_riverpod_with_copywith/todostatenotifier/home_page.dart';
 //import 'package:state_provider_riverpod_with_copywith/homepage.dart';
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const ProviderScope(
       child: MaterialApp(
-        home: HomeStateNotifier(),
+        home: TodoScreen(),
       ),
     );
   }

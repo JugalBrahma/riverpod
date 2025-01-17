@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:state_provider_riverpod_with_copywith/provider.dart';
+import 'package:state_provider_riverpod_with_copywith/statenotifier/provider.dart';
 
 class HomeStateNotifier extends ConsumerWidget {
   const HomeStateNotifier({super.key});
