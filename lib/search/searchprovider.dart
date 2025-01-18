@@ -36,6 +36,16 @@ class Searchprovider extends StateNotifier<Searchitem> {
     }
     return items
         .where((item) => item.name.toLowerCase().contains(search.toLowerCase()))
-        .toList();
+        .toList(); //For each item in the list:
+//Converts item.name and search to lowercase using .toLowerCase() (to make the comparison case-insensitive).
+//Checks if item.name contains the search string using .contains().
+// Returns true if it matches, or false otherwise.
+// .toList():
+// After filtering, the result is a lazy Iterable.
+// .toList() converts this Iterable into a new list, which is the final filtered result.
+// "item1".toLowerCase().contains("i") → true
+// "apple".toLowerCase().contains("i") → false
+// "ink".toLowerCase().contains("i") → true
+// "orange".toLowerCase().contains("i") → false
   }
 }
