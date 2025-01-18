@@ -24,7 +24,7 @@ class TodoScreen extends ConsumerWidget {
                   child: ListTile(
                     tileColor: Colors.lightBlue[50],
                     shape: RoundedRectangleBorder(
-                      side: BorderSide(color: Colors.lightBlue, width: 1),
+                      side: const BorderSide(color: Colors.lightBlue, width: 1),
                       borderRadius: BorderRadius.circular(5),
                     ),
                     title: Text('$items'),
